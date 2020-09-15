@@ -3,3 +3,5 @@ export function awaitWrapper<T, U = any>(promise: Promise<T>) {
     .then<[null, T]>((res: T) => [null, res])
     .catch<[U, null]>((err) => [err, null]);
 }
+
+export const getKeyValue = <T, K extends keyof T>(obj: T, key: K): T[K] => obj[key];

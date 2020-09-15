@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "sourceMap": false,
+    "declaration": false,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "strict": true,
+    "lib": ["esnext", "es6"],
+    "outDir": "./dist"
+  },
+  "include": ["./src"]
+}
